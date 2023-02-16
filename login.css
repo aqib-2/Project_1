@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.05),rgba(0,0,0,0.05)),url(./images/snitch.png) ;
+    background-size: 50px; 
+  }
+  
+  .card{
+    height:500px;
+    width: 400px;
+    margin: 80px auto;
+    background-color: #ecdfdfec;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+  }
+  .card h1{
+    font-size:40px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 45px;
+    
+  }
+  .main{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+  .card input{
+    font-size: 16px;
+    width: 90%;
+    margin-left: 10px;
+    padding: 10px;
+    background-color:#ecdfdfec;
+    border: none;
+    border-bottom: 2px solid #000;
+  }
+  form p{
+    margin-top: 15px;
+    margin-left: 15px;
+    
+  }
+  form p a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+  }
+  form p a:hover{
+    color: grey;
+    transition: 0.2s;
+  }
+  form button a{
+    text-decoration: none;
+    color: #000;
+  }
+  form button{
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 35px 40px;
+    padding: 10px 10px;
+    border: none;
+    background-color: #ecdfdfec;
+  }
+  form button:hover{
+    color: rgb(204, 77, 77);
+    border: none;
+    border-bottom: 3px solid #000;
+    transition: 0.2s;
+    cursor: pointer;
+  }

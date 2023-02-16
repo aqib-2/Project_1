@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" sizes="32x32">
+    <link rel="stylesheet" href="create.css">
+    <title>Create Account!</title>
+</head>
+<body>
+    <div class="card">
+        <h1>Create Account</h1>
+        <form  action="register.php" method="post">
+            <p class="main">Name</p>
+            <input class="place" type="text" name="fname" placeholder="Enter Your Full Name" required>
+            <p class="main">Email*</p>
+            <input class="place" type="email" name="email" placeholder="Enter Your Email" required>
+            <p class="main">Password*</p>
+            <input class="place" type="password" name="pass" placeholder="Password" required>
+            <p><input class="check" type="checkbox" required>  I agree to the Terms of User</p>
+            <button type="submit">Create Account</button>
+        </form>
+    </div>
+</body>
+</html>
